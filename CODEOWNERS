@@ -1,0 +1,3 @@
+# Assign ownership for critical paths
+echo "src/ @admin-sauce" >> .github/CODEOWNERS
+echo ".github/ @admin-sauce" >> .github/CODEOWNERS
