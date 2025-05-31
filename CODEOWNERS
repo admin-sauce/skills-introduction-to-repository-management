@@ -1,3 +1,7 @@
-# Assign ownership for critical paths
-echo "src/ @admin-sauce" >> .github/CODEOWNERS
-echo ".github/ @admin-sauce" >> .github/CODEOWNERS
+# Core functionality - changes here should be rare!
+/src/app.py                   @admin-sauce
+/src/backend/database.py      @admin-sauce
+/src/backend/routers/auth.py  @admin-sauce
+
+# The frontend will need refactored soon to be more object oriented.
+/src/static/   @admin-sauce
